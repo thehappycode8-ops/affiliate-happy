@@ -1,0 +1,8 @@
+# Netlify — ตั้งค่าสำหรับ Next.js (App Router + middleware)
+# Netlify ตรวจพบ Next.js เองได้ ไฟล์นี้แค่ล็อกค่าให้แน่นอน
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
